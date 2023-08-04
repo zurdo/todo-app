@@ -17,7 +17,6 @@ export const AddTask = ({ AddTask }) => {
         type='text'
         id='task-title'
         value={newTask}
-        maxLength={25}
         placeholder='Enter a new task'
         onChange={e => setNewTask(e.target.value)}
       />
